@@ -1,5 +1,7 @@
 # FCSAPI - FX Price Feeds
 
+Update: 2021-02-05
+
 Get Real Time Forex and Crypto Prices with Socket and PHP. These code files help you to get live feeds from FCSAPI server. Get live prices from https://fcsapi.com
 
 <b> Files </b>
@@ -10,11 +12,11 @@ Get Real Time Forex and Crypto Prices with Socket and PHP. These code files help
 
 * Install composer if not installed in your machine: https://getcomposer.org/
 * Create your work directory.
-* Install require workerman dependency
+* Install require workerman dependency in your directory
 ````
 composer require workerman/phpsocket.io
 ````
-* To Stablish connection between FCS server and your machine Run
+* To Start connection between FCS server and your machine run command
 ````
 php start.php start
 ````
@@ -72,5 +74,8 @@ List of Available currency ids : https://fcsapi.com/assets/socket/socket_support
 ### Start.php 
 Recommend you to download files and use it, It contain full code also if server discounnet for any reason, it will reconnect you with Backup server.
 
+#### Documentaion
+FCS Socket documentation : [fcsapi.com/document/socket-api](https://fcsapi.com/document/socket-api)
 
+Wokerman Framework : [WorkerMan Githug](https://github.com/walkor/Workerman)
 

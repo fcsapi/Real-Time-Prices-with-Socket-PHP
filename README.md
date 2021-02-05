@@ -3,7 +3,7 @@
 Get Real Time Forex and Crypto Prices with Socket and PHP. These code files help you to get live feeds from FCSAPI server. Get live prices from https://fcsapi.com
 
 <b> Files </b>
-* start.php stablish a connect between your and FCS server.
+* start.php stablish a connection between your and FCS server.
 * receiver.php contain methods that received live prices and log messages.
 
 ## Installation

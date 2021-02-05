@@ -1,0 +1,12 @@
+
+@@ Workerman documentaion: @@
+	Client side : https://github.com/walkor/Workerman
+	Server side: https://github.com/walkor/phpsocket.io
+
+
+@@ Installation @@
+* Install composer if not : https://getcomposer.org/
+* Create your work directory, 
+* Install require dependency 
+	Run command > "composer require workerman/phpsocket.io"
+* Run this file from command > "php start.php start"

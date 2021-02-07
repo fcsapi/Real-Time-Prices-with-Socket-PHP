@@ -5,6 +5,9 @@
 FCSAPI provides real time FX prices with socket and PHP connection, FCS use socket.io on the server-side and workerman framework for PHP client.  These code files help you to get live feeds from servers. Prices update frequency are <1 second to 5 seconds or depends on the currency. 
 Get live prices from [fcsapi.com](https://fcsapi.com)
 
+### Live Example
+On example page, click on "start button" to start socket connection. <b> [Working Example Here](https://fcsapi.com/socket/v3/index.html)</b>
+
 <b> Files </b>
 * start.php stablish a connection between your and FCS server.
 * receiver.php contain methods that received live prices and log messages.
